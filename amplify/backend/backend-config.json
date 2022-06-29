@@ -1,0 +1,34 @@
+{
+  "api": {
+    "amplifiedshopping": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  },
+  "custom": {
+    "customResourcef7e805d1": {
+      "service": "customCDK",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "function": {
+    "sendSummary": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": []
+    }
+  }
+}

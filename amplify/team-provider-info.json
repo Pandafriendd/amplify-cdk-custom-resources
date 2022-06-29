@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifiedshopping-dev-124331-authRole",
+      "UnauthRoleArn": "arn:aws:iam::457175632986:role/amplify-amplifiedshopping-dev-124331-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::457175632986:role/amplify-amplifiedshopping-dev-124331-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplifiedshopping-dev-124331-deployment",
+      "UnauthRoleName": "amplify-amplifiedshopping-dev-124331-unauthRole",
+      "StackName": "amplify-amplifiedshopping-dev-124331",
+      "StackId": "arn:aws:cloudformation:us-east-2:457175632986:stack/amplify-amplifiedshopping-dev-124331/9d3e19f0-f7ca-11ec-9f25-066d23288022",
+      "AmplifyAppId": "dueqb3ryezxxk"
+    },
+    "categories": {
+      "function": {
+        "sendSummary": {
+          "deploymentBucketName": "amplify-amplifiedshopping-dev-124331-deployment",
+          "s3Key": "amplify-builds/sendSummary-316a6f4d37746d744a54-build.zip"
+        }
+      }
+    }
+  }
+}
